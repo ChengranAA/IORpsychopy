@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.1.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': ''}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="False" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="fileList"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="deg" valType="str"/>
+    <Param name="Use version" updates="None" val="2020.2" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1680, 1050]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[-1,-1,-1]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="IORpsychopy" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="debug" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="fixation">
+      <PolygonComponent name="rightSquare">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="rightSquare" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(5, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(1, 1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="deg" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="leftSquare">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="leftSquare" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-5, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(1, 1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="deg" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="fixation_fixation">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="fixation_fixation" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="instruction">
+      <TextComponent name="instrText">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="Arabic" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="5" valType="code"/>
+        <Param name="name" updates="None" val="instrText" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="欢迎参加本次实验！&amp;#10;&amp;#10;实验开始时会出现两个方块和一个十字，请&amp;#10;正视十字。50ms后一个方框会随机出现在&amp;#10;左边或者右边，然后一段时间后一个目标黑&amp;#10;色圆形会出现，你的任务是尽快的选择目标&amp;#10;黑色圆形图案的方向，方向键左键代表目标&amp;#10;在左边，方向键右键代表目标在右边。目标&amp;#10;方块可能会出现也可能不出现，不出现的情&amp;#10;况下不需要按任何键。请注意，方框的位置&amp;#10;和目标黑色圆形图案的位置无关。&amp;#10;&amp;#10;——按空格开始——" valType="extendedStr"/>
+        <Param name="units" updates="None" val="deg" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="0" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="instrkesp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="instrkesp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="False" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="cue">
+      <PolygonComponent name="CueSquare">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="CueSquare" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(cueCorr, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(1.5, 1.5)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.05" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="cueSquareleft">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="cueSquareleft" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-5, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(1, 1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.05" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="cueSquareright">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="cueSquareright" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(5, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(1, 1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.05" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="fixation_cue">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="fixation_cue" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.05" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="target">
+      <PolygonComponent name="suqare_target_left">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="suqare_target_left" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-5, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(1, 1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="square_target_right">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="square_target_right" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(5, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(1, 1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="fixation_target">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="fixation_target" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="target_circle">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="1000" valType="int"/>
+        <Param name="name" updates="None" val="target_circle" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(targetCorr, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="regular polygon..." valType="str"/>
+        <Param name="size" updates="constant" val="(0.7, 0.7)" valType="code"/>
+        <Param name="startEstim" updates="None" val="0.1" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="$SOA" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <KeyboardComponent name="resp">
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="$corrAns" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="0.1" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="$SOA" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((targetCorr === 200)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if targetCorr == 200:&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="rest">
+      <TextComponent name="Resttext">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.5" valType="code"/>
+        <Param name="name" updates="None" val="Resttext" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="60" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Take a break" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="endText">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.5" valType="code"/>
+        <Param name="name" updates="None" val="endText" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="谢谢您参与本次实验" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1" valType="code"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="n_blocks">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="3" valType="code"/>
+      <Param name="name" updates="None" val="n_blocks" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'left'), ('cueCorr', -5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'left'), ('targetPostion', 'right'), ('cueCorr', -5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'left'), ('cueCorr', 5.0), ('targetCorr', -5.0), ('corrAns', 'left'), ('validity', 1.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 50), ('cuePosition', 'right'), ('targetPostion', 'right'), ('cueCorr', 5.0), ('targetCorr', 5.0), ('corrAns', 'right'), ('validity', 0.0)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)]), OrderedDict([('SOA', 150), ('cuePosition', None), ('targetPostion', None), ('cueCorr', None), ('targetCorr', None), ('corrAns', None), ('validity', None)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="condition.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="15" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fixation"/>
+    <Routine name="cue"/>
+    <Routine name="target"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="rest"/>
+    <LoopTerminator name="n_blocks"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
